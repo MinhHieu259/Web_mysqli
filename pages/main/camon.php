@@ -1,0 +1,1 @@
+<p>Mua hàng thành công. Cảm ơn bạn đã mua hàng</p>

@@ -1,0 +1,212 @@
+@import url('https://fonts.google.com/specimen/Zen+Tokyo+Zoo');
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Zen Tokyo Zoo;
+    font-size: 20px;
+    z-index: 1;
+    background-image: url(https://mythuat24h.com/wp-content/uploads/2012/04/light-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+}
+.navbar{
+    background-color: #009CDE !important;
+    opacity: 0.8;
+    position: fixed;
+    width: 100% !important;
+}
+.navbar li a{
+    color: white !important;
+}
+.navbar li a:hover{
+    color: black !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+#demo{
+    width: 80% ;
+    
+    margin: 0 auto;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+}
+.carousel-caption h1{
+    text-shadow: 2px 2px 15px black;
+}
+.carousel-caption h3{
+    text-shadow: 5px 5px 15px black;
+    text-transform: uppercase;
+    font-size: 400%;
+}
+.btn-primary{
+    background-color:blueviolet ;
+    height: 60px;
+}
+.btn-primary:hover{
+    color: black !important;
+    opacity: 100% !important;
+   
+}
+.btn-lg{
+    height: 60px;
+}
+@media( max-width:992px ){
+    .carousel-caption {
+        top: 20%;
+    }
+    .carousel-caption h1{
+        font-size: 250%;
+    }
+    .carousel-caption h3{
+        font-size: 160%;
+    }
+    .carousel-caption .btn{
+        font-size: 120%;
+    }
+}
+
+@media( max-width:768px ){
+    .carousel-caption {
+        top: 20%;
+    }
+    .carousel-caption h1{
+        font-size: 220%;
+    }
+    .carousel-caption h3{
+        font-size: 140%;
+        padding-bottom: 0.2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+}
+.sidebar{
+    
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.maincontent{
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+footer{
+    background-color: #009CDE;
+    
+    color: white;
+}
+footer img{
+    height: 50px;
+}
+footer hr{
+    position: relative;
+    margin-top: 20px;
+}
+footer .left{
+    
+    border-right: solid 1px white;
+}
+.navbar-toggler{
+    float: right !important;
+}
+.thumbnail{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.thumbnail .fa-star{
+    color: gold;
+}
+
+.thumbnail img{
+    width: 130px;
+    height: 130px;
+}
+.btn-primary{
+    height: 40px !important;
+}
+.btn-default{
+    height: 40px !important;
+}
+.list-group a{
+    text-decoration: none;
+}
+.panel-title{
+    background-color: #009CDE;
+}
+.list-group a:hover{
+background-color: #009CDE;
+color: white;
+}
+.panel-heading h3{
+    text-align: center;
+}
+.list-group a{
+    text-align: center;
+}
+.dropdown-menu{
+    background-color: #009CDE;
+    color: white;
+}
+.card{
+    height: 550px;
+}
+.anhsp{
+    width: 250px;
+    height: 150px;
+}
+.themgiohang{
+    border: none;
+    background-color: chocolate;
+    color: white;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.chitiet{
+    border: none;
+    background-color: #009CDE;
+    color: white;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.chitiet:hover{
+    text-decoration: none;
+}
+.cong{
+    /* float: right; */
+    margin-left: 10px;
+  
+}
+.tru{
+    /* float: left; */
+    margin-right: 10px;
+}
+.sluong{
+    text-align: center;
+    width: 200px;
+}
+.btn-outline-success{
+    background-color: white !important;
+    color: black;
+}
+.btn-outline-success:hover{
+    background-color: lightblue !important;
+    color: white;
+}
+.icon i{
+    
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+    
+}
